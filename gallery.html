@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Галерея</title>
-    <style>/* те же стили */</style>
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
+
 <header>
     <nav>
         <a href="index.html">Главная</a>
@@ -18,13 +18,16 @@
     </nav>
 </header>
 
-<div class="container">
+<main class="container">
     <div class="card">
         <h1>Галерея</h1>
-        <p>Тут можно разместить изображения, 3D-превью или ссылки на работы.</p>
+        <p>Здесь может быть витрина рендеров, превью 3D-проектов и т.п.</p>
 
-        <img src="https://via.placeholder.com/600x300/333/eee?text=Sample+Image" style="width:100%; border-radius:12px; margin-top:16px;">
+        <img class="gallery-image"
+             src="https://via.placeholder.com/800x400/333/eee?text=Sample+Image"
+             alt="Пример изображения">
     </div>
-</div>
+</main>
+
 </body>
 </html>
